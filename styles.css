@@ -1,0 +1,92 @@
+/* IMAGES */
+/* Fondo de pantalla */
+body {
+    background-image: url("https://www.enjpg.com/img/2020/studio-ghibli-5-e1605738570967.jpg");
+    background-size: cover;
+}
+
+/* Imagen principal home */
+img.header {
+    max-width: 75%;
+    max-height: auto;
+
+}
+/* Recurso para alinear fotos al centro hasta que aprenda otro */
+div.image-align-center {
+    text-align: center;
+}
+
+/* Imagen recetas */
+img.recipe-main-photo {
+    object-fit: cover;
+    width: 80%;
+    height: 500px;
+    text-align: center;
+}
+
+
+/* FONTS */
+@font-face { 
+    font-family: Ghibli; 
+    src: url('Fonts/ghibli/Ghibli.otf'); 
+} 
+@font-face { 
+    font-family: Ghibli; 
+    font-weight: bold; 
+    src: url('Fonts/ghibli/Ghibli-Bold.otf');
+}
+@font-face { 
+    font-family: Grunge; 
+    src: url('Fonts/grunge-decade-font/GrungeDecadeRegular-p7yma.ttf');
+}
+
+/* home title & subtitle */
+.home-title {
+    font-size: 83px;
+    color: #EDB800;
+    text-align: center;
+    font-family: Grunge, sans-serif;
+    text-shadow: 5px 5px 5px black;
+}
+.home-subtitle {
+    font-size: 40px;
+    font-family: Ghibli, sans-serif;
+    
+}
+
+.back-home {
+    font-size: small;
+    text-align: right;
+}
+
+/* Home - Recipes list */
+.recipes-box {
+    background-color: #7EBFC7;
+    width: auto;
+    border: 5px solid #949C6D;
+    padding: 15px;
+    margin: 30px;
+    font-size: x-large;
+    
+}
+
+#recipes-list {
+    color: #7C8A9E;
+}
+
+#recipe-list a {
+    text-decoration: none;
+    border-bottom: dashed salmon;
+}
+
+
+/* Recipes - Container box over background for recipes view */
+.recipe-template {
+    background-color: #7EBFC7;
+    width: auto;
+    border: 5px solid #949C6D;
+    padding: 50px;
+    margin: 60px;
+    font-size: x-large;
+    
+}
